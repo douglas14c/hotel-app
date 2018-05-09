@@ -11,5 +11,6 @@ export const ROUTES = [
   { path: 'hotels/:_id', component: HotelsComponent },
   { path: 'about', component: AboutComponent },
   { path: 'checkout', component: CheckoutComponent },
-  { path: 'hotel-detail/:_id', component: HotelDetailComponent }
+  { path: 'hotel-detail/:_id', component: HotelDetailComponent },
+  { path: 'hotel-detail/:id', component: HotelDetailComponent }
 ]

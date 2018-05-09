@@ -15,9 +15,10 @@ import { AboutComponent } from './views/about/about.component';
 import { HotelDetailComponent } from './views/hotels/hotel-detail/hotel-detail.component';
 import { CheckoutComponent } from './views/checkout/checkout.component';
 import { HotelComponent } from './views/hotels/hotel/hotel.component';
-import { CarouselComponent } from './views/hotels/hotel-detail/carousel/carousel.component';
+// import { CarouselComponent } from './views/hotels/hotel-detail/carousel/carousel.component';
 import { DescriptionComponent } from './views/hotels/hotel-detail/description/description.component';
 import { CarouselService } from './services/carousel.service';
+import { DetailService } from './services/detail.service';
 
 
 @NgModule({
@@ -30,7 +31,7 @@ import { CarouselService } from './services/carousel.service';
     HotelDetailComponent,
     CheckoutComponent,
     HotelComponent,
-    CarouselComponent,
+    // CarouselComponent,
     DescriptionComponent,
   ],
   imports: [
@@ -40,7 +41,7 @@ import { CarouselService } from './services/carousel.service';
     FormsModule,
     CommonModule
   ],
-  providers: [HotelService, CarouselService],
+  providers: [HotelService, CarouselService, DetailService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

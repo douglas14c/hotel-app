@@ -1,9 +1,9 @@
 import { Injectable } from '@angular/core';
-import { Http, Headers, RequestOptions } from '@angular/http';
+import { Headers, RequestOptions, Http } from '@angular/http';
 import { environment } from '../../environments/environment';
 
 @Injectable()
-export class CarouselService {
+export class DetailService {
 
   constructor(private http: Http) { }
 
@@ -14,19 +14,17 @@ export class CarouselService {
     return options;
   }
 
-  public async getCarousel(id: string) {
+  getDetail(id: string) {
     const headers = this.getHeaders();
 
-    let url = `${environment.baseUrl}/carousel/${id}`;
+    let url = `${environment.baseUrl}/detail/${id}`;
 
     return this.http.get(url, headers)
-      .map((res: any) => {
-        res = JSON.parse(res._body);
-        return res;
-      })
-      .toPromise()
-      .catch((error: any) => error || 'Server error');
+    .map((res: any) => {
+      res = res.json();
+      return res;
+    })
+    .toPromise()
+    .catch((error: any) => error || 'Server error');
   }
-
-  
 }

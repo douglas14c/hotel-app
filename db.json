@@ -48,7 +48,7 @@
       "about": "Aqui o sol brilha como nunca! Suas férias serão as melhores!"
     }
   ],
-  "carrousel": [
+  "carousel": [
     {
       "id": "achei-hotel",
       "imagePath": ["assets/images/hotels/job/achei-hotel-room1.jpg",
@@ -98,48 +98,48 @@
       "hotelsId": "sunshine-resort"
     }
   ],
-  "description": [
+  "detail": [
     {
-      "hotelsId": "achei-hotel",
-      "comments1": "Cama King size daorona pra dormir com o mozão",
-      "comments2": "wifi top da balada",
-      "comments3": "mesinha hipster",
-      "comments4": "facil acesso ao metro"
+      "id": "achei-hotel",
+      "details": ["Cama King size daorona pra dormir com o mozão",
+        "wifi top da balada",
+        "mesinha hipster",
+        "facil acesso ao metro"]
     },
     {
-      "hotelsId": "mobile-viagens",
-      "comments1": "Cama King size daorona pra dormir com o mozão",
-      "comments2": "wifi top da balada",
-      "comments3": "mesinha hipster",
-      "comments4": "facil acesso ao metro"
+      "id": "mobile-viagens",
+      "details": ["não é chicoso, mas da pra curtir legal",
+        "melhor vista pros assaltos noturnos da paulista",
+        "considerando a região é um bom custo beneficio",
+        "janelas anti ruído, não da pra escutar as manifestações"]
     },
     {
-      "hotelsId": "mountains-hotel",
-      "comments1": "Cama King size daorona pra dormir com o mozão",
-      "comments2": "wifi top da balada",
-      "comments3": "mesinha hipster",
-      "comments4": "facil acesso ao metro"
+      "id": "mountains-hotel",
+      "details": ["perfeito pra quem quer descansar no meio da aventura",
+        "tem uns abajur daora pra ler a noite",
+        "vista pra um marzão desse mundão de meu deus",
+        "traga repelente"]
     },
     {
-      "hotelsId": "three-pines-hotels",
-      "comments1": "Cama King size daorona pra dormir com o mozão",
-      "comments2": "wifi top da balada",
-      "comments3": "mesinha hipster",
-      "comments4": "facil acesso ao metro"
+      "id": "three-pines-hotels",
+      "details": ["Quarto pra rapaziada toda",
+        "excelente pra quem gosta de chalézinhos",
+        "café da manhã da roça, tem que matar pra comer",
+        "tem lereira"]
     },
     {
-      "hotelsId": "acapulco-resort",
-      "comments1": "Cama King size daorona pra dormir com o mozão",
-      "comments2": "wifi top da balada",
-      "comments3": "mesinha hipster",
-      "comments4": "facil acesso ao metro"
+      "id": "acapulco-resort",
+      "details": ["Vista pro mar onde não tem o povão",
+        "não tem pagode a tarde, mas se quiser tem",
+        "tem piscina se não gosta de praia",
+        "ventilador de teto não range"]
     },
     {
-      "hotelsId": "sunshine-resort",
-      "comments1": "Cama King size daorona pra dormir com o mozão",
-      "comments2": "wifi top da balada",
-      "comments3": "mesinha hipster",
-      "comments4": "facil acesso ao metro"
+      "id": "sunshine-resort",
+      "details": ["Cozinha grande pra chamar a galera toda",
+        "da pra fazer umas party legal",
+        "tem ar-condicionado",
+        "não tem piscina, vai pra praia"]
     }
   ]
 }

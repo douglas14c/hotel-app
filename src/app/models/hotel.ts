@@ -2,7 +2,7 @@ export class Hotel {
   _id: string;
   name: string;
   category: string;
-  description?: string;
+  details?: string;
   isAvaible?: boolean;
   rating: number;
   imagePath: string;
@@ -18,8 +18,8 @@ export class Hotel {
     if (res.category)
       this.category = res.category;
 
-    if (res.description)
-      this.description = res.description;
+    if (res.details)
+      this.details = res.details;
 
     if (res.isAvaible)
       this.isAvaible = res.isAvaible;
