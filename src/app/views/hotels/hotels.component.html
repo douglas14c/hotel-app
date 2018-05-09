@@ -1,0 +1,12 @@
+<h1>Todos os hotéis</h1>
+
+<div class="container hotels-container">
+  <div class="row">
+    <div *ngFor="let hotel of hotels" class="col-md-4">
+     <app-hotel [hotel]="hotel"></app-hotel>
+    </div>
+    
+  <!--CARD BOTTOM -->
+
+  <!-- END CARD BOTTOM -->
+</div>

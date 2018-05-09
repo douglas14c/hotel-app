@@ -1,0 +1,60 @@
+/* You can add global styles to this file, and also import other style files */
+.btn-primary {
+    background-color: orangered;
+    border: none;
+    margin-top: 50px;
+}
+
+.btn-primary:hover {
+    background-color: orange;
+}
+
+.btn-outline-success{
+    color: orangered;
+    border-color: orangered;
+}
+
+.btn-outline-success:hover{
+    background-color: orange;
+}
+.btn-hotels {
+    margin-top: 0px;
+}
+
+/* card-hotell */
+.col-md-4 {
+    padding: 10px;
+}
+
+/* #card-bottom{
+    margin-bottom: 100px;
+} */
+
+.hotel-footer {
+    background-color: #000;
+    color: #f2fffc;
+    font-family: 'Roboto-regular', sans-serif;
+    width: 100%;
+    padding: 10px;
+    position: fixed;
+    margin: 0px;
+    bottom: 0px;
+}
+
+.hotels-container {
+    margin-bottom: 100px;
+}
+
+.home-jumbotron {
+    margin-top: 100px;
+    /* padding: 100px; */
+    border: 0;
+    text-align: center;
+    width: 900px;
+    /* transform: translateX(70px); */
+    /* transform: translateY(70px); */
+}
+
+.navbar {
+    position: relative;
+}

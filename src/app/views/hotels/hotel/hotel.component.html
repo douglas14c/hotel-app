@@ -1,0 +1,8 @@
+<div class="card" style="width: 18rem;">
+  <img class="card-img-top" [src]="hotel.imagePath" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">{{hotel.name}}</h5>
+    <p class="card-text">{{hotel.about}}</p>
+    <a routerLink="/hotel-detail/{{hotel._id}}" class="btn btn-primary btn-hotels">Escolher Hotel</a>
+  </div>
+</div>

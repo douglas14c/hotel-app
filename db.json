@@ -1,0 +1,145 @@
+{
+  "hotels":[
+    {
+      "_id": "achei-hotel",
+      "name": "Achei Hotel",
+      "category": "job",
+      "rating": 4.9,
+      "imagePath":"assets/images/hotels/job/acheihotel.png",
+      "about": "Temos o hotel perfeito pra você ficar enquanto trabalha."
+    },
+    {
+      "_id": "mobile-viagens",
+      "name": "Mobile Viagens",
+      "category": "job",
+      "rating": 3.5,
+      "imagePath":"assets/images/hotels/job/mobileviagens.png",
+      "about": "Somos o melhor site de hoteis do mundo na palma da sua mão!"
+    },
+    {
+      "_id": "mountains-hotel",
+      "name": "Mountains Hotel",
+      "category": "camp",
+      "rating": 4.8,
+      "imagePath":"assets/images/hotels/camp/MountainsHotels.png",
+      "about": "Hotel para os amantes da natureza e lugares calmos"
+    },
+    {
+      "_id": "three-pines-hotels",
+      "name": "Three Pines Hotels",
+      "category": "camp",
+      "rating": 4.1,
+      "imagePath":"assets/images/hotels/camp/ThreePinesHotels.png",
+      "about": "Venha fugir da correria da cidade no conforto dos nossos quartos"
+    },
+    {
+      "_id": "acapulco-resort",
+      "name": "Acapulco Resort",
+      "category": "beach",
+      "rating": 4.5,
+      "imagePath":"assets/images/hotels/beach/AcapulcoResort.png",
+      "about": "Lembra daquele episódio de chaves? Então, foi aqui."
+    },{
+      "_id": "sunshine-resort",
+      "name": "Sunshine Resort",
+      "category": "beach",
+      "rating": 2.5,
+      "imagePath":"assets/images/hotels/beach/SunshineResort.png",
+      "about": "Aqui o sol brilha como nunca! Suas férias serão as melhores!"
+    }
+  ],
+  "carrousel": [
+    {
+      "id": "achei-hotel",
+      "imagePath": ["assets/images/hotels/job/achei-hotel-room1.jpg",
+        "assets/images/hotels/job/achei-hotel-room2.jpg",
+        "assets/images/hotels/job/achei-hotel-room3.jpg"
+      ],
+      "hotelsId": "achei-hotel"
+    },
+    {
+      "id": "mobile-viagens",
+      "imagePath": ["assets/images/hotels/job/mobile-viagens-room1.jpg",
+        "assets/images/hotels/job/mobile-viagens-room2.jpg",
+        "assets/images/hotels/job/mobile-viagens-room3.jpg"
+      ],
+      "hotelsId": "mobile-hotel"
+    },
+    {
+      "id": "mountains-hotel",
+      "imagePath": ["assets/images/hotels/camp/mountains-hotel-room1.jpg",
+        "assets/images/hotels/camp/mountains-hotel-room2.jpg",
+        "assets/images/hotels/camp/mountains-hotel-room3.jpg"
+      ],
+      "hotelsId": "mountains-hotel"
+    },
+    {
+      "id": "three-pines-hotels",
+      "imagePath": ["assets/images/hotels/camp/three-pines-hotels-room1.jpg",
+        "assets/images/hotels/camp/three-pines-hotels-room2.jpg",
+        "assets/images/hotels/camp/three-pines-hotels-room3.jpg"
+      ],
+      "hotelsId": "three-pines-hotels"
+    },
+    {
+      "id": "acapulco-resort",
+      "imagePath": ["assets/images/hotels/beach/acapulco-resort-room1.jpg",
+        "assets/images/hotels/beach/acapulco-resort-room2.jpg",
+        "assets/images/hotels/beach/acapulco-resort-room3.jpg"
+      ],
+      "hotelsId": "acapulco-resort"
+    },
+    {
+      "id": "sunshine-resort",
+      "imagePath": ["assets/images/hotels/beach/sunshine-resort-room1.jpg",
+        "assets/images/hotels/beach/sunshine-resort-room2.jpg",
+        "assets/images/hotels/beach/sunshine-resort-room3.jpg"
+      ],
+      "hotelsId": "sunshine-resort"
+    }
+  ],
+  "description": [
+    {
+      "hotelsId": "achei-hotel",
+      "comments1": "Cama King size daorona pra dormir com o mozão",
+      "comments2": "wifi top da balada",
+      "comments3": "mesinha hipster",
+      "comments4": "facil acesso ao metro"
+    },
+    {
+      "hotelsId": "mobile-viagens",
+      "comments1": "Cama King size daorona pra dormir com o mozão",
+      "comments2": "wifi top da balada",
+      "comments3": "mesinha hipster",
+      "comments4": "facil acesso ao metro"
+    },
+    {
+      "hotelsId": "mountains-hotel",
+      "comments1": "Cama King size daorona pra dormir com o mozão",
+      "comments2": "wifi top da balada",
+      "comments3": "mesinha hipster",
+      "comments4": "facil acesso ao metro"
+    },
+    {
+      "hotelsId": "three-pines-hotels",
+      "comments1": "Cama King size daorona pra dormir com o mozão",
+      "comments2": "wifi top da balada",
+      "comments3": "mesinha hipster",
+      "comments4": "facil acesso ao metro"
+    },
+    {
+      "hotelsId": "acapulco-resort",
+      "comments1": "Cama King size daorona pra dormir com o mozão",
+      "comments2": "wifi top da balada",
+      "comments3": "mesinha hipster",
+      "comments4": "facil acesso ao metro"
+    },
+    {
+      "hotelsId": "sunshine-resort",
+      "comments1": "Cama King size daorona pra dormir com o mozão",
+      "comments2": "wifi top da balada",
+      "comments3": "mesinha hipster",
+      "comments4": "facil acesso ao metro"
+    }
+  ]
+}
