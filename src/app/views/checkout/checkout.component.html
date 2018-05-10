@@ -1,56 +1,65 @@
-<form>
-    <div class="row">
-      <div class="col-md-1">
-        <p>Titulo:</p>
-        <input type="text" class="form-control">
-      </div>
-      <div class="col-md-4">
-        <p>Nome:</p>
-        <input type="text" class="form-control" placeholder="Nome">
-      </div>
-      <div class="col-md-4">
-        <p>Sobrenome:</p>
-        <input type="text" class="form-control" placeholder="Sobrenome">
-      </div>
-      <div class="col-md-4">
-        <p>Telefone</p>
-        <input type="text" class="form-control" placeholder="Telefone">
-      </div>
-    </div>
-    <div class="col-md-6">
-      <p>Email:</p>
-      <input type="text" class="form-control" placeholder="digite um email">
-    </div>
-    <div class="col-md-6">
-      <p>Confirme seu email:</p>
-      <input type="text" class="form-control" placeholder="Confirme seu email">
-    </div>
-    <section class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <h5>Forma de Pagamento</h5>
-          <div class="form-check">
-            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-            <label class="form-check-label" for="exampleRadios1">
-              Dinheiro
-            </label>
-          </div>
-          <div class="form-check">
-            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-            <label class="form-check-label" for="exampleRadios1">
-              Cartão de Débito
-            </label>
-          </div>
-          <div class="form-check">
-            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-            <label class="form-check-label" for="exampleRadios1">
-              Cartão de Crédito
-            </label>
-          </div>
-          <div>
-            <button type="button" class="btn btn-secondary">Agendar</button>
-          </div>
+<section class="container">
+  <div class="col-md-12">
+    <form class="col-md-12">
+      <div class="row" >
+        <div class="col-md-2">
+          <!-- {{checkout.title}}
+          {{checkout.name}}
+          {{checkout.lastNamte}}
+          {{checkout.phone}}
+          {{checkout.email}} -->
+          <p>Titulo:</p>
+          <input type="text" class="form-control" name="title" [(ngModel)]="checkout.title">
+        </div>
+        <div class="col-md-4">
+          <p>Nome:</p>
+          <input type="text" class="form-control" placeholder="Nome" [(ngModel)]="checkout.name">
+        </div>
+        <div class="col-md-4">
+          <p>Sobrenome:</p>
+          <input type="text" class="form-control" placeholder="Sobrenome" [(ngModel)]="checkout.LastName">
+        </div>
+        <div class="col-md-4">
+          <p>Telefone</p>
+          <input type="text" class="form-control" placeholder="Telefone" [(ngModel)]="checkout.phone">
         </div>
       </div>
-    </section>
-  </form>
+      <div class="col-md-6">
+        <p>Email:</p>
+        <input type="text" class="form-control" placeholder="digite um email" [(ngModel)]="checkout.email">
+      </div>
+      <div class="col-md-6">
+        <p>Confirme seu email:</p>
+        <input type="text" class="form-control" placeholder="Confirme seu email">
+      </div>
+      <section class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h5>Forma de Pagamento</h5>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+              <label class="form-check-label" for="exampleRadios1">
+                Dinheiro
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+              <label class="form-check-label" for="exampleRadios1">
+                Cartão de Débito
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+              <label class="form-check-label" for="exampleRadios1">
+                Cartão de Crédito
+              </label>
+            </div>
+            <div>
+              <button type="button" class="btn btn-secondary" (click)="Order()">Agendar</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </form>
+  </div>
+</section>

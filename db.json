@@ -1,11 +1,11 @@
 {
-  "hotels":[
+  "hotels": [
     {
       "_id": "achei-hotel",
       "name": "Achei Hotel",
       "category": "job",
       "rating": 4.9,
-      "imagePath":"assets/images/hotels/job/acheihotel.png",
+      "imagePath": "assets/images/hotels/job/acheihotel.png",
       "about": "Temos o hotel perfeito pra você ficar enquanto trabalha."
     },
     {
@@ -13,7 +13,7 @@
       "name": "Mobile Viagens",
       "category": "job",
       "rating": 3.5,
-      "imagePath":"assets/images/hotels/job/mobileviagens.png",
+      "imagePath": "assets/images/hotels/job/mobileviagens.png",
       "about": "Somos o melhor site de hoteis do mundo na palma da sua mão!"
     },
     {
@@ -21,7 +21,7 @@
       "name": "Mountains Hotel",
       "category": "camp",
       "rating": 4.8,
-      "imagePath":"assets/images/hotels/camp/MountainsHotels.png",
+      "imagePath": "assets/images/hotels/camp/MountainsHotels.png",
       "about": "Hotel para os amantes da natureza e lugares calmos"
     },
     {
@@ -29,7 +29,7 @@
       "name": "Three Pines Hotels",
       "category": "camp",
       "rating": 4.1,
-      "imagePath":"assets/images/hotels/camp/ThreePinesHotels.png",
+      "imagePath": "assets/images/hotels/camp/ThreePinesHotels.png",
       "about": "Venha fugir da correria da cidade no conforto dos nossos quartos"
     },
     {
@@ -37,21 +37,23 @@
       "name": "Acapulco Resort",
       "category": "beach",
       "rating": 4.5,
-      "imagePath":"assets/images/hotels/beach/AcapulcoResort.png",
+      "imagePath": "assets/images/hotels/beach/AcapulcoResort.png",
       "about": "Lembra daquele episódio de chaves? Então, foi aqui."
-    },{
+    },
+    {
       "_id": "sunshine-resort",
       "name": "Sunshine Resort",
       "category": "beach",
       "rating": 2.5,
-      "imagePath":"assets/images/hotels/beach/SunshineResort.png",
+      "imagePath": "assets/images/hotels/beach/SunshineResort.png",
       "about": "Aqui o sol brilha como nunca! Suas férias serão as melhores!"
     }
   ],
   "carousel": [
     {
       "id": "achei-hotel",
-      "imagePath": ["assets/images/hotels/job/achei-hotel-room1.jpg",
+      "imagePath": [
+        "assets/images/hotels/job/achei-hotel-room1.jpg",
         "assets/images/hotels/job/achei-hotel-room2.jpg",
         "assets/images/hotels/job/achei-hotel-room3.jpg"
       ],
@@ -59,7 +61,8 @@
     },
     {
       "id": "mobile-viagens",
-      "imagePath": ["assets/images/hotels/job/mobile-viagens-room1.jpg",
+      "imagePath": [
+        "assets/images/hotels/job/mobile-viagens-room1.jpg",
         "assets/images/hotels/job/mobile-viagens-room2.jpg",
         "assets/images/hotels/job/mobile-viagens-room3.jpg"
       ],
@@ -67,7 +70,8 @@
     },
     {
       "id": "mountains-hotel",
-      "imagePath": ["assets/images/hotels/camp/mountains-hotel-room1.jpg",
+      "imagePath": [
+        "assets/images/hotels/camp/mountains-hotel-room1.jpg",
         "assets/images/hotels/camp/mountains-hotel-room2.jpg",
         "assets/images/hotels/camp/mountains-hotel-room3.jpg"
       ],
@@ -75,7 +79,8 @@
     },
     {
       "id": "three-pines-hotels",
-      "imagePath": ["assets/images/hotels/camp/three-pines-hotels-room1.jpg",
+      "imagePath": [
+        "assets/images/hotels/camp/three-pines-hotels-room1.jpg",
         "assets/images/hotels/camp/three-pines-hotels-room2.jpg",
         "assets/images/hotels/camp/three-pines-hotels-room3.jpg"
       ],
@@ -83,7 +88,8 @@
     },
     {
       "id": "acapulco-resort",
-      "imagePath": ["assets/images/hotels/beach/acapulco-resort-room1.jpg",
+      "imagePath": [
+        "assets/images/hotels/beach/acapulco-resort-room1.jpg",
         "assets/images/hotels/beach/acapulco-resort-room2.jpg",
         "assets/images/hotels/beach/acapulco-resort-room3.jpg"
       ],
@@ -91,7 +97,8 @@
     },
     {
       "id": "sunshine-resort",
-      "imagePath": ["assets/images/hotels/beach/sunshine-resort-room1.jpg",
+      "imagePath": [
+        "assets/images/hotels/beach/sunshine-resort-room1.jpg",
         "assets/images/hotels/beach/sunshine-resort-room2.jpg",
         "assets/images/hotels/beach/sunshine-resort-room3.jpg"
       ],
@@ -101,45 +108,94 @@
   "detail": [
     {
       "id": "achei-hotel",
-      "details": ["Cama King size daorona pra dormir com o mozão",
+      "details": [
+        "Cama King size daorona pra dormir com o mozão",
         "wifi top da balada",
         "mesinha hipster",
-        "facil acesso ao metro"]
+        "facil acesso ao metro"
+      ]
     },
     {
       "id": "mobile-viagens",
-      "details": ["não é chicoso, mas da pra curtir legal",
+      "details": [
+        "não é chicoso, mas da pra curtir legal",
         "melhor vista pros assaltos noturnos da paulista",
         "considerando a região é um bom custo beneficio",
-        "janelas anti ruído, não da pra escutar as manifestações"]
+        "janelas anti ruído, não da pra escutar as manifestações"
+      ]
     },
     {
       "id": "mountains-hotel",
-      "details": ["perfeito pra quem quer descansar no meio da aventura",
+      "details": [
+        "perfeito pra quem quer descansar no meio da aventura",
         "tem uns abajur daora pra ler a noite",
         "vista pra um marzão desse mundão de meu deus",
-        "traga repelente"]
+        "traga repelente"
+      ]
     },
     {
       "id": "three-pines-hotels",
-      "details": ["Quarto pra rapaziada toda",
+      "details": [
+        "Quarto pra rapaziada toda",
         "excelente pra quem gosta de chalézinhos",
         "café da manhã da roça, tem que matar pra comer",
-        "tem lereira"]
+        "tem lereira"
+      ]
     },
     {
       "id": "acapulco-resort",
-      "details": ["Vista pro mar onde não tem o povão",
+      "details": [
+        "Vista pro mar onde não tem o povão",
         "não tem pagode a tarde, mas se quiser tem",
         "tem piscina se não gosta de praia",
-        "ventilador de teto não range"]
+        "ventilador de teto não range"
+      ]
     },
     {
       "id": "sunshine-resort",
-      "details": ["Cozinha grande pra chamar a galera toda",
+      "details": [
+        "Cozinha grande pra chamar a galera toda",
         "da pra fazer umas party legal",
         "tem ar-condicionado",
-        "não tem piscina, vai pra praia"]
+        "não tem piscina, vai pra praia"
+      ]
+    }
+  ],
+  "checkout": [
+    {
+      "id": "teste",
+      "titulo": "Mr",
+      "name": "teste",
+      "lastName": "da silva",
+      "phone": "1231567",
+      "email": "teste@teste.com",
+      "payment": "CRED"
+    },
+    {
+      "title": "dsda",
+      "id": "_o942Ui"
+    },
+    {
+      "title": "dsda",
+      "id": "RLHw9aR"
+    },
+    {
+      "title": "dsda",
+      "id": "4VcFj66"
+    },
+    {
+      "title": "miwa",
+      "id": "UmaDc~L"
+    },
+    {
+      "title": "teste",
+      "id": "xehTgER"
+    },
+    {
+      "id": "rpcl5FT"
+    },
+    {
+      "id": "WcLPQ3V"
     }
   ]
 }
