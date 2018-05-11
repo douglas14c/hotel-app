@@ -17,6 +17,8 @@ import 'rxjs/add/observable/throw';
 @Injectable()
 export class CheckoutService {
 
+  portion: boolean;
+
   constructor(private http: Http) { }
 
   private getHeaders() {
@@ -37,5 +39,14 @@ export class CheckoutService {
     .toPromise() //fica esperando uma promise? é necessário? quando usar?
     .catch((error: any) => error || 'Server error'); //se alguma coisa der errado ele me volta um erro
   }
+
+  /*]
+  a função deve verificar se o checkbox está ativo, se sim, mostra as parcelas, caso contrario não mostra nada
+  */
+  // paymentForms() {
+  //   let credit: boolean
+  //   if(credit)
+  //     return credit;
+  // }
 
 }

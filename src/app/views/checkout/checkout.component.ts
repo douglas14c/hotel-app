@@ -21,4 +21,8 @@ export class CheckoutComponent implements OnInit {
     return this.checkoutService.checkoutOrder(this.checkout);
     console.log(this.checkout);
   }
+
+  showPortion() {
+    return this.checkoutService.portion;
+  }
 }

@@ -1,7 +1,7 @@
 <section class="container">
   <div class="col-md-12">
     <form class="col-md-12">
-      <div class="row" >
+      <div class="row">
         <div class="col-md-2">
           <!-- {{checkout.title}}
           {{checkout.name}}
@@ -55,7 +55,20 @@
               </label>
             </div>
             <div>
-              <button type="button" class="btn btn-secondary" (click)="Order()">Agendar</button>
+              <div>
+                <form class="form-inline" *ngIf="">
+                  <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Quer pagar quanto?</label>
+                  <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+                    <option selected>Parcelas...</option>
+                    <option value="1">1x R$1000,00 sem juros</option>
+                    <option value="2">2x R$500,00 sem juros</option>
+                    <option value="3">3x R$333,33 sem juros</option>
+                  </select>
+                </form>
+              </div>
+              <div>
+                <button type="submit" class="btn btn-primary my-1">Agendar</button>
+              </div>
             </div>
           </div>
         </div>
